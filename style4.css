@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ff6600;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.tag-cloud {
+    text-align: center;
+    margin: 2rem;
+}
+
+.tag-cloud a {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tag-cloud a:hover {
+    background-color: #e65c00;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.contact p {
+    font-size: 1.2rem;
+}
+
+.contact-email {
+    font-size: 1.5rem;
+    color: #ff6600;
+}
