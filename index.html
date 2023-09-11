@@ -3,23 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>标签云</title>
+    <title>科技感标签云</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #232323;
             margin: 0;
             padding: 0;
+            color: #fff;
+        }
+        header {
+            background-color: #007acc;
+            padding: 2rem 0;
             text-align: center;
         }
+        h1 {
+            font-size: 2rem;
+        }
         .tag-cloud {
-            margin-top: 100px;
+            text-align: center;
+            margin: 2rem;
         }
         .tag-cloud a {
             display: inline-block;
-            font-size: 14px;
-            padding: 5px 10px;
-            margin: 5px;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            margin: 10px;
             background-color: #007acc;
             color: #fff;
             text-decoration: none;
@@ -29,9 +38,23 @@
         .tag-cloud a:hover {
             background-color: #005c99;
         }
+        .contact {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .contact p {
+            font-size: 1.2rem;
+        }
+        .contact-email {
+            font-size: 1.5rem;
+            color: #007acc;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <h1>前沿科技介绍</h1>
+    </header>
     <div class="tag-cloud">
         <a href="#">Docker</a>
         <a href="#">内网穿透</a>
@@ -39,7 +62,10 @@
         <a href="#">公网IP映射</a>
         <a href="#">DDNS</a>
         <!-- 添加更多标签 -->
-        <a href="mailto:35697438@QQ.COM">35697438@QQ.COM</a> <!-- 添加邮箱地址 -->
+    </div>
+    <div class="contact">
+        <p>如有任何问题或咨询，请发送邮件至：</p>
+        <p class="contact-email">35697438@QQ.COM</p>
     </div>
 </body>
 </html>
